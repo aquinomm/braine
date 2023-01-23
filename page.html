@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/elements.css">
+    <link rel="stylesheet" href="assets/css/classes.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>brainé</title>
+</head>
+<body class="primary-color">
+
+    <input type="checkbox" id="close-menu" class="close-menu" aria-label="Close menu" role="button" aria-pressed="true">
+    <label for="close-menu" title="close menu" class="close-menu-label"></label>
+    <aside class="menu white-bg" id="header">
+        
+        <div class="main-content menu-content" >
+            <h1 onclick="getElementById('close-menu').checked = false"><a href='#home'>brainé</a></h1>
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false">
+                    <li><a href="#about">Sur nous</a></li>
+                    <li><a href="#grid-reasons">Pourquoi brainé?</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#pricing">Prices</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+    
+    <div class="menu-spacing"></div>
+
+    <section id="home" class="main-bg section intro">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>On t'apprene le français</h2>
+                <p>Est-ce que t'es incapable de apprendre le français? Pas de problème! Avec notre technologie, tu est capable de apprender quelques et toutes les choses concernant le français!</p>
+            </div>
+
+            <div class="intro-img">
+                <img src="assets/img/img.svg" alt="">
+            </div>
+    </div>
+    </section>
+
+    <section id="about" class="white-bg section">
+        <div class="main-content about-content">
+            <h2>Sur nous</h2>
+            <p>Tout a commancé avec deux stupides, mais passionates étudiants de médecin. Après avoir perdue une opportunité de travail pour ne savoir pas comment parler le français, Jean-Jacques Sus a juré de apprendre les gens comment parler un nouveau langue.</p>
+            <p>Il a connue J***** (son nom e prénom devoient rester anonyme) et ils ont finalement preparé le mode parfacte d'apprendre le français. Ceci est le travail que vous vous profiteraz de!</p>        </div>
+    </section>
+
+    <section id="grid-reasons" class="main-bg grid-reasons section intro">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Pourquoi utiliser notre service?</h2>
+            <p class="grid-description">On te donne pas un ou deux, mais trois motifs pour nous contracter</p>
+            <div class="grid">
+                <article>
+                    <h3> Rapide</h3>
+                    <p>Après tout, votre temps précieux passé à regarder des vidéos de grenouilles doit être protégé
+                    </p>
+                </article>
+                <article>
+                    <h3> Indoloure (ou presque)</h3>
+                    <p>Après tout, comme l'a dit l'écrivain Clarice Lispector, "dans le baiser de la connaissance, il y a toujours un goût de sang".</p>    
+                </article>
+                <article>
+                    <h3>Tu n'a pas le choix</h3>
+                    <p>Regardez par la fenêtre 🙂</p>
+                </article>          
+            </div>
+        </div>
+    </section>
+
+
+    <section id="gallery" class="white-bg gallery section intro">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Gallery</h2>
+            <p class="grid-description">Regardez-vous notre travail</p>
+            <div class="grid">
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r=1" alt="">
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r=2" alt="">
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r=3" alt="">
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r=4" alt="">
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r=5" alt="">
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r=6" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="main-bg section">
+        <div class="main-content about-content">
+            <h2>Prices</h2>
+            
+            <div class="responsive-table">
+                <table>
+                    <caption>Pricing table</caption>
+
+                    <thead>
+                        <tr>
+                            <th>Title 1</th>
+                            <th>Title 2</th>
+                            <th>Title 3</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Lorem</td>
+                            <td>Content 3</td>
+                        </tr>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Lorem</td>
+                            <td>Content 3</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="white-bg section intro">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>Contactez nous</h2>
+                <p>Êtes-vous interésse? Envoyez-nous un e-mail en requestant de nos services!</p>
+            </div>
+
+            <div class="intro-img">
+                <img src="assets/img/contact.svg" alt="">
+            </div>
+
+            <div class="contact-form">
+                <fieldset class="form-grid">
+                    <legend>Contact</legend>
+
+                    <div class="form-group">
+                        <label for="first-name">Prénom</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="Votre prénom">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="last-name">Nom</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Votre nom">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="text" name="email" id="email" placeholder="Votre e-mail">
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message">
+
+                        </textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <button type="submit">Envoyer message</button>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer" class="footer primary-color">
+        <p><a target="_blank" href="https://github.com/aquinomm">Feito com <span class="heart">♥</span> e ironia por aquinomm</a></p>
+    </footer>
+
+    <div class="back-to-top">
+        <a href="#home">↾</a>
+    </div>
+    
+</body>
+</html>
